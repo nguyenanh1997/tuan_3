@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def test():
-    return "test1"
+    return "Redirected!! Let check cookie."
 
 
     
